@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+    <script>
+        setTimeout(function(){
+            location.reload();
+        }, 5000);
+    </script>
+</head>
+<body>
+    <h1>Status: {{status}}</h1>
+    {% if result %}
+        <h2>Results:</h2>
+        <p>{{result}}</p>
+    {% endif %}
+</body>
+</html>
